@@ -1,5 +1,5 @@
 ## 何ができるの
-xtne6f版EDCBの自動録画設定を、EPGStaionのルールに反映させることができます。
+xtne6f版EDCBの自動録画設定を、EPGStationのルールに反映させることができます。
 
 ## 開発環境
 
@@ -8,7 +8,7 @@ xtne6f版EDCBの自動録画設定を、EPGStaionのルールに反映させる�
 
 ## 動作環境
 
-PythonからEPGStatinのWebAPIを叩いて動作しています。  
+PythonからEPGStationのWebAPIを叩いて動作しています。  
 requestsモジュールが必要だと思います。  
 
 `pip install requests`
@@ -24,8 +24,8 @@ requestsモジュールが必要だと思います。
 **2、実行**  
 `python run.py`
   
-正常系しか実装していないので、実行結果をEPGStaionのルール画面と、予約画面で確認してください。
+正常系しか実装していないので、実行結果をEPGStationのルール画面と、予約画面で確認してください。
 
 ---
 ## 注意事項
-すでに登録されているEPGStaionのルールは、全て削除されます。
+すでに登録されているEPGStationのルールは、全て削除されます。
